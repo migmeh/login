@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
@@ -42,9 +42,9 @@ class App extends Component {
 
             {currentUser && (
               <li className="nav-item">
-                <Link to={"/content"} className="nav-link">
+                <a href={"/content"} className="nav-link">
                   Content
-                </Link>
+                </a>
               </li>
             )}
           </div>
@@ -63,19 +63,21 @@ class App extends Component {
           ) : (
             <div className="navbar-nav ml-auto">
               <li className="nav-item">
-                <Link to={"/login"} className="nav-link">
+                <a href={"/login"} className="nav-link">
                   Login
-                </Link>
+                </a>
               </li>
             </div>
           )}
         </nav>
 
         <div className="container mt-3">
+          <BrowserRouter>
           <Switch>
             <Route exact path={["/", "/login"]} component={Login} />
             <Route path="/content" component={BoardUser} />
           </Switch>
+          </BrowserRouter>
         </div>
       </div>
     );
