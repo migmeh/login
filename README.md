@@ -22,5 +22,11 @@ npm test
 ```
 npm run test:coverage
 ```
+if error messages appear
+```
+npm test
+//select option u
+npm run test:coverage
+```
 
 ### ENJOY
