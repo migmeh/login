@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`login component login 1`] = `<Login />`;
+
+exports[`login component shallow login 1`] = `
+<div
+  className="col-md-12"
+>
+  <div
+    className="card card-container"
+  >
+    <Form(t)
+      onSubmit={[Function]}
+    >
+      <div
+        className="form-group"
+      >
+        <label
+          htmlFor="username"
+        >
+          Username: 
+          <strong>
+            root
+          </strong>
+        </label>
+        <Control(s)
+          className="form-control"
+          name="username"
+          onChange={[Function]}
+          type="text"
+          validations={
+            Array [
+              [Function],
+            ]
+          }
+          value=""
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          htmlFor="password"
+        >
+          Password: 
+          <strong>
+            123456
+          </strong>
+        </label>
+        <Control(s)
+          className="form-control"
+          name="password"
+          onChange={[Function]}
+          type="password"
+          validations={
+            Array [
+              [Function],
+            ]
+          }
+          value=""
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <button
+          className="btn btn-primary btn-block"
+          disabled={false}
+        >
+          <span>
+            Login
+          </span>
+        </button>
+      </div>
+      <Button(s)
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+      />
+    </Form(t)>
+  </div>
+</div>
+`;

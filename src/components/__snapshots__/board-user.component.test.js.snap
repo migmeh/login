@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BoardUser component BoardUser 1`] = `<BoardUser />`;
+
+exports[`BoardUser component BoardUser shallow 1`] = `
+<div
+  className="container"
+>
+  <header
+    className="jumbotron"
+  >
+    <h3 />
+  </header>
+</div>
+`;
