@@ -6,27 +6,28 @@ https://github.com/migmeh/loginback
 
 ## install dependencies
 ```
-npm install
+npm install --global yarn
+
 ```
 
 ### Run
 ```
-npm start
+yarn start
 ```
 
 ### test
 ```
-npm test
+yarn test
 ```
 ### coverage
 ```
-npm run test:coverage
+yarn run test:coverage
 ```
 if error messages appear
 ```
-npm test
+yarn test
 //select option u
-npm run test:coverage
+yarn run test:coverage
 ```
 
 ### ENJOY
